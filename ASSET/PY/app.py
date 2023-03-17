@@ -106,7 +106,7 @@ if computador == 2: # Computador jogou tesoura.
         elif jogador == 3: # Jogador jogou largato.
             print ('Que concidência! Empate.')
 
-        elif jogador == 4: # Johador jogou Spock.
+        elif jogador == 4: # Jogador jogou Spock.
             print ('Eu venci! Largato envenena Spock.')
 
         else:
