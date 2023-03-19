@@ -48,9 +48,8 @@ if computador == 0: # Computador jogou pedra.
 
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê venceu! Spock vaporiza pedra.')
-
-    else: 
-        print ('JOGADA INVÁLIDA!')
+    else:
+        print ('Jogada Incorreta')
 
 
 if computador == 1: # Computador jogou papel.
@@ -68,10 +67,8 @@ if computador == 1: # Computador jogou papel.
 
     elif jogador == 4: # Jogador jogou Spork.
         print ('Eu venci! Papel refuta Spock.')
-
     else:
-        print ('JOGADA INVÁLIDA!')
-
+        print ('Jogada inválida!')
 
 if computador == 2: # Computador jogou tesoura.
     if jogador == 0: # Jogador jogou pedra.
@@ -89,8 +86,8 @@ if computador == 2: # Computador jogou tesoura.
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê venceu! Spock esmaga tesoura.')
 
-    else: 
-        print ('JOGADA INVÁLIDA!')
+    else:
+        print ('Jogada Errada')
 
 
 if computador == 3: # Computador jogou lagarto.
@@ -110,7 +107,8 @@ if computador == 3: # Computador jogou lagarto.
         print ('Eu venci! Largato envenena Spock.')
 
     else:
-        print ('JOGADA INVÁLIDA')          
+        print ('Tente outra jogada!')
+         
 
 
 if computador == 4: # Computador jogou Spock.
@@ -128,8 +126,9 @@ if computador == 4: # Computador jogou Spock.
 
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê leu meus pensametos?!? Empate.')
-
+    
     else:
-        print ('JOGADA INVÁLIDA!')
+        print('Essa jogada não pode')
 
-        
+
+
