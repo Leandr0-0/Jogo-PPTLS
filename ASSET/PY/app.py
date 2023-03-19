@@ -131,3 +131,5 @@ if computador == 4: # Computador jogou Spock.
 
     else:
         print ('JOGADA INVÁLIDA!')
+
+        
