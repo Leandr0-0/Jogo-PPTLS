@@ -27,10 +27,10 @@ print('''Suas opções:
 
 
 jogador = int(input('Qual é a sua jogada?'))
-print('-=' * 12)
+print('<>' * 12)
 print ('Eu joguei: {}'.format(itens[computador]))
 print ('Você jogou: {}'.format(itens[jogador]))
-print('-=' * 12)
+print('<>' * 12)
 
 
 if computador == 0: # Computador jogou pedra.
@@ -93,41 +93,41 @@ if computador == 2: # Computador jogou tesoura.
         print ('JOGADA INVÁLIDA!')
 
 
-    if computador == 3: # Computador jogou lagarto.
-        if jogador == 0: # Jogador jogou pedra.
-            print ('Você venceu! Pedra esmaga largato.') 
+if computador == 3: # Computador jogou lagarto.
+    if jogador == 0: # Jogador jogou pedra.
+        print ('Você venceu! Pedra esmaga largato.') 
 
-        elif jogador == 1: # Jogador jogou papel.
-            print ('Eu venci! Largato come papel.') 
+    elif jogador == 1: # Jogador jogou papel.
+        print ('Eu venci! Largato come papel.') 
 
-        elif jogador == 2: # Jogador jogou tesoura.
-            print ('Cê venceu! Tesoura decapita largato.') 
+    elif jogador == 2: # Jogador jogou tesoura.
+        print ('Cê venceu! Tesoura decapita largato.') 
 
-        elif jogador == 3: # Jogador jogou largato.
-            print ('Que concidência! Empate.')
+    elif jogador == 3: # Jogador jogou largato.
+        print ('Que concidência! Empate.')
 
-        elif jogador == 4: # Jogador jogou Spock.
-            print ('Eu venci! Largato envenena Spock.')
+    elif jogador == 4: # Jogador jogou Spock.
+        print ('Eu venci! Largato envenena Spock.')
 
-        else:
-            print ('JOGADA INVÁLIDA')          
+    else:
+        print ('JOGADA INVÁLIDA')          
 
 
-    if computador == 4: # Computador jogou Spock.
-        if jogador == 0: # Jogador jogou pedra.
-            print ('Eu venci! Spock vaporiza a pedra.')
+if computador == 4: # Computador jogou Spock.
+    if jogador == 0: # Jogador jogou pedra.
+        print ('Eu venci! Spock vaporiza a pedra.')
 
-        elif jogador == 1: # Jogador jogou papel.
-            print ('Você venceu! Papel refuta Spock.')
+    elif jogador == 1: # Jogador jogou papel.
+        print ('Você venceu! Papel refuta Spock.')
 
-        elif jogador == 2: # Jogador jogou tesoura.
-            print ('Eu venci! Spock esmaga tesoura.')
+    elif jogador == 2: # Jogador jogou tesoura.
+        print ('Eu venci! Sock amassa tesoura')    
 
-        elif jogador == 3: # Jogador jogou largato.
-            print ('Você Venceu! Largato envenena Spock')
+    elif jogador == 3: # Jogador jogou largato.
+        print ('Você Venceu! Largato envenena Spock')
 
-        elif jogador == 4: # Jogador jogou Spock.
-            print ('Cê leu meus pensametos?!? Empate.')
+    elif jogador == 4: # Jogador jogou Spock.
+        print ('Cê leu meus pensametos?!? Empate.')
 
-        else:
-            print ('JOGADA INVÁLIDA!')
+    else:
+        print ('JOGADA INVÁLIDA!')
