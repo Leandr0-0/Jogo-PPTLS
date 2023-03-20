@@ -27,6 +27,10 @@ print('''Suas opções:
 
 
 jogador = int(input('Qual é a sua jogada?'))
+
+while jogador not in [0, 1, 2, 3, 4]:
+    print('Jogada inválida! Tente outra vez.')
+    jogador = int(input('Qual é a sua jogada?'))
 print('<>' * 12)
 print ('Eu joguei: {}'.format(itens[computador]))
 print ('Você jogou: {}'.format(itens[jogador]))
@@ -48,8 +52,7 @@ if computador == 0: # Computador jogou pedra.
 
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê venceu! Spock vaporiza pedra.')
-    else:
-        print ('Jogada Incorreta')
+
 
 
 if computador == 1: # Computador jogou papel.
@@ -67,8 +70,8 @@ if computador == 1: # Computador jogou papel.
 
     elif jogador == 4: # Jogador jogou Spork.
         print ('Eu venci! Papel refuta Spock.')
-    else:
-        print ('Jogada inválida!')
+
+
 
 if computador == 2: # Computador jogou tesoura.
     if jogador == 0: # Jogador jogou pedra.
@@ -86,8 +89,6 @@ if computador == 2: # Computador jogou tesoura.
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê venceu! Spock esmaga tesoura.')
 
-    else:
-        print ('Jogada Errada')
 
 
 if computador == 3: # Computador jogou lagarto.
@@ -106,11 +107,8 @@ if computador == 3: # Computador jogou lagarto.
     elif jogador == 4: # Jogador jogou Spock.
         print ('Eu venci! Largato envenena Spock.')
 
-    else:
-        print ('Tente outra jogada!')
          
-
-
+        
 if computador == 4: # Computador jogou Spock.
     if jogador == 0: # Jogador jogou pedra.
         print ('Eu venci! Spock vaporiza a pedra.')
@@ -127,8 +125,6 @@ if computador == 4: # Computador jogou Spock.
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê leu meus pensametos?!? Empate.')
     
-    else:
-        print('Essa jogada não pode')
 
 
 
