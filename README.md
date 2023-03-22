@@ -23,6 +23,12 @@ amigos esta muito entediada no momento. SEUS PROBLEMAS ACABARAM!!! Jogue ainda h
 * Largato > papel e Spock;
 * Spock > pedra e tesoura.
 
+### Descriçaõ do Jogo:
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/126103951/226940838-4093f697-3789-4069-bc33-c03e2929d458.png"/>
+</div>
+
 
 
 
