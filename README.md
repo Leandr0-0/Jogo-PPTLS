@@ -24,14 +24,20 @@ amigos esta muito entediada no momento. SEUS PROBLEMAS ACABARAM!!! Jogue ainda h
 * Spock > pedra e tesoura.
 
 ### Descriçaõ do Jogo:
-Apos executar o arquivo do Python - nesse jogo o Python estar sendo executado no e 
+Para joga o jogo PPTL&amp;S será necessario baixar e intalar o Python no seu computador. Caso ainda não tenha na sua maquina segui-se abaixo o link de um video explicando passo a passo de como fazer isso. O video e simple e prático **Como instalar o Python 3.10 no Windows 11**:
+
+<div align="center">
+  https://youtu.be/nyiRdrI2HQU
+</div>
+
+<br>Apos ter intalado ao executar o arquivo do Python o terminal perguntara ao usuraio qual é a sua jogada e lhe oferecerra as opçoes:</br>
+
 <div align="center">
 <img src="https://user-images.githubusercontent.com/126103951/226940838-4093f697-3789-4069-bc33-c03e2929d458.png"/>
 </div>
 
-
-
-
-
+<div align="center">
+<img src="https://user-images.githubusercontent.com/126103951/227272719-9d09cc6e-5c94-40db-ad8f-9c80501f69c1.png"/>
+</div>
 
 
