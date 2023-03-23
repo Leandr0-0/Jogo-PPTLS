@@ -36,8 +36,14 @@ Para joga o jogo PPTL&amp;S será necessario baixar e intalar o Python no seu co
 <img src="https://user-images.githubusercontent.com/126103951/226940838-4093f697-3789-4069-bc33-c03e2929d458.png"/>
 </div>
 
+<br> Com o ituitio de ter mais interação entre o computadoe e o usuario o programa se chama na 1° pessoa ("*Eu* venci") e o usuario na 2° pessoa ("*Você* perdeu"). Para cada uma das 25 jogadas possiveis o Python tem uma resposta. Entre "Cê venceu! Tesoura decapita largato" ou "Eu venci! Largato envenena Spock." e até "Cê leu meus pensametos?!? Empate." Se por acaso o computadoe e o usuario jogaram a mesma jogada. E se por ventura o usuario fazer uma jogada que não está na opções sugeriasas o terminal dira "Jogada inválida! Tente outra vez", e repita a pergunta inicial "Qual é a sua jogada?" </br>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/126103951/227278988-335c034e-bbb8-4196-9332-6be4a6620b31.png"/>
+</div>
+
 <div align="center">
 <img src="https://user-images.githubusercontent.com/126103951/227272719-9d09cc6e-5c94-40db-ad8f-9c80501f69c1.png"/>
 </div>
 
-
+<br> Com o ob</br>
