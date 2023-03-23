@@ -46,4 +46,8 @@ Para joga o jogo PPTL&amp;S será necessário baixar e instalar o Python no seu 
 <img src="https://user-images.githubusercontent.com/126103951/227272719-9d09cc6e-5c94-40db-ad8f-9c80501f69c1.png"/>
 </div>
 
-<br> Com o ob</br>
+## Referência para o Projeto:
+Para fazer esse projeto foi referenciado o víeo "*Exercício Python #045 - GAME: Pedra Papel e Tesoura*" do canal no Youtube "Curso em Vídeo". 
+<br> Segue-se o link abaixo:</br>
+<br> https://youtu.be/tapTa6KVG-A </br>
+<br> Coloquei mais dois elementos (lagarto e Spock) para se adequar a referência da seria já citada. Espero que se divirtam o mesmo tanto que me diverti fazendo esse código. </br>
