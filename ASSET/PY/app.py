@@ -22,7 +22,7 @@ print('''Suas opções:
 [ 0 ] PEDRA
 [ 1 ] PAPEL
 [ 2 ] TESOURA
-[ 3 ] LARGATO
+[ 3 ] LAGARTO
 [ 4 ] SPOCK''')
 
 
@@ -47,8 +47,8 @@ if computador == 0: # Computador jogou pedra.
     elif jogador == 2: # Jogador jogou tesoura.
         print ('Eu venci! Pedra esmaga tesoura.')
 
-    elif jogador == 3: # Jogador jogou largato.
-        print('Eu venci! Pedra esmaga largato.')
+    elif jogador == 3: # Jogador jogou lagarto.
+        print('Eu venci! Pedra esmaga lagarto.')
 
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê venceu! Spock vaporiza pedra.')
@@ -65,7 +65,7 @@ if computador == 1: # Computador jogou papel.
     elif jogador == 2: #Jogador jogou tesoura.
         print ('Você venceu! Tesoura corta papel.')
 
-    elif jogador == 3: # Jogador jogou largato.
+    elif jogador == 3: # Jogador jogou lagarto.
         print ('Você venceu! Lagarto come papel.')
 
     elif jogador == 4: # Jogador jogou Spork.
@@ -83,8 +83,8 @@ if computador == 2: # Computador jogou tesoura.
     elif jogador == 2: # Jogador jogou tesoura.
         print ('Poxa! Empatou.')
 
-    elif jogador == 3: # Jogador jogou largato.
-        print ('Eu venci! Tesoura decapita largato.')
+    elif jogador == 3: # Jogador jogou lagarto.
+        print ('Eu venci! Tesoura decapita lagarto.')
 
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê venceu! Spock esmaga tesoura.')
@@ -93,23 +93,23 @@ if computador == 2: # Computador jogou tesoura.
 
 if computador == 3: # Computador jogou lagarto.
     if jogador == 0: # Jogador jogou pedra.
-        print ('Você venceu! Pedra esmaga largato.') 
+        print ('Você venceu! Pedra esmaga lagarto.') 
 
     elif jogador == 1: # Jogador jogou papel.
-        print ('Eu venci! Largato come papel.') 
+        print ('Eu venci! Lagarto come papel.') 
 
     elif jogador == 2: # Jogador jogou tesoura.
-        print ('Cê venceu! Tesoura decapita largato.') 
+        print ('Cê venceu! Tesoura decapita lagarto.') 
 
-    elif jogador == 3: # Jogador jogou largato.
+    elif jogador == 3: # Jogador jogou lagarto.
         print ('Que concidência! Empate.')
 
     elif jogador == 4: # Jogador jogou Spock.
-        print ('Eu venci! Largato envenena Spock.')
+        print ('Eu venci! Lagarto envenena Spock.')
 
-         
         
 if computador == 4: # Computador jogou Spock.
+    
     if jogador == 0: # Jogador jogou pedra.
         print ('Eu venci! Spock vaporiza a pedra.')
 
@@ -119,12 +119,9 @@ if computador == 4: # Computador jogou Spock.
     elif jogador == 2: # Jogador jogou tesoura.
         print ('Eu venci! Sock amassa tesoura')    
 
-    elif jogador == 3: # Jogador jogou largato.
-        print ('Você Venceu! Largato envenena Spock')
+    elif jogador == 3: # Jogador jogou lagarto.
+        print ('Você Venceu! Lagarto envenena Spock')
 
     elif jogador == 4: # Jogador jogou Spock.
         print ('Cê leu meus pensametos?!? Empate.')
     
-
-
-
