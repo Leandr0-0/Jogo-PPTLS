@@ -31,10 +31,10 @@ jogador = int(input('Qual é a sua jogada?'))
 while jogador not in [0, 1, 2, 3, 4]:
     print('Jogada inválida! Tente outra vez.')
     jogador = int(input('Qual é a sua jogada?'))
-print('<>' * 12)
+print('-x-' * 12)
 print ('Eu joguei: {}'.format(itens[computador]))
 print ('Você jogou: {}'.format(itens[jogador]))
-print('<>' * 12)
+print('-x-' * 12)
 
 
 if computador == 0: # Computador jogou pedra.
